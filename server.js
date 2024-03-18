@@ -3,7 +3,7 @@ const app = express();
 
 // Define a route to serve your file
 app.get('/', (req, res) => {
-    res.sendFile(__dirname + '/todo.html');
+    res.sendFile(__dirname + '/myTasks.html');
 });
 
 // Start the server
